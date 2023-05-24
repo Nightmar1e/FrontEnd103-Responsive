@@ -1,0 +1,47 @@
+body {
+  background-color: blue;
+}
+
+@media (max-width: 299px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  body {
+    background-color: green;
+  }
+}
+
+/**/
+/**/
+/**/
+/**/
+/*@media screen and (width < 800px) {*/
+/*  .column {*/
+/*    float: none;*/
+/*  }*/
+/*  .mast, .intro, .main, .footer {*/
+/*      float: none;*/
+/*      width: auto;*/
+/*    }*/
+/*  }*/
+/*  */
+/*}*/
+
+
+
+/*body{*/
+/*    background-image: url("paradise.png");*/
+/*    */
+/*    background-color: lightgrey;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: top center;*/
+/*    background-size: 100%;*/
+/*    border : 1px solid #000000;*/
+/*    width: 90%;*/
+/*    margin: 0 auto;*/
+/*    font-family:  tahoma;*/
+/*    font-size: 20px;*/
+/*}*/
